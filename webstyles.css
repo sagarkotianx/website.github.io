@@ -1,0 +1,173 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.institutionname{
+    color: #202124;
+    font-family: Google Sans,arial,sans-serif-medium,sans-serif;
+    font-weight: 500 !important;
+    word-break: break-word;
+
+}
+header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+.application a {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.departments {
+    display: flex;
+}
+
+.department {
+    margin: 0 10px;
+}
+/* ... (previous code) ... */
+
+.main {
+    padding: 20px;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.image-gallery img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.1);
+}
+/* ... (previous code) ... */
+
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contact {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.contact h3 {
+    margin-bottom: 10px;
+}
+
+.contact p {
+    margin-bottom: 5px;
+}
+
+/* ... (remaining code) ... */
+
+.departments-dropdown {
+    position: relative;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content .department {
+    padding: 10px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* ... (previous code) ... */
+
+.dropdown-content .department {
+    padding: 10px;
+    text-align: left;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-content .department:hover {
+    background-color: #ddd;
+}
+/* ... (remaining code) ... */
